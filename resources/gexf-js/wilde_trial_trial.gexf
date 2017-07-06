@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2017-07-04">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="indegree" title="Degré Entrant" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Degré Sortant" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degré" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted indegree" title="Weighted In-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted outdegree" title="Weighted Out-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted degree" title="Weighted Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="Boston Daily Advertiser">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.0"></viz:size>
+        <viz:position x="257.7482" y="-163.14807"></viz:position>
+        <viz:color r="76" g="70" b="62"></viz:color>
+      </node>
+      <node id="2" label="Philadelphia Times ">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="3"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="eigencentrality" value="0.13566578771420487"></attvalue>
+          <attvalue for="weighted indegree" value="2.0"></attvalue>
+          <attvalue for="weighted outdegree" value="3.0"></attvalue>
+          <attvalue for="weighted degree" value="5.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.8"></viz:size>
+        <viz:position x="196.59915" y="-2.0832636"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="3" label="Atlanta Constitution ">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="eigencentrality" value="0.0021567932808093425"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="1.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.72"></viz:size>
+        <viz:position x="204.93854" y="-208.94176"></viz:position>
+        <viz:color r="0" g="196" b="255"></viz:color>
+      </node>
+      <node id="4" label="New York Times">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="eigencentrality" value="0.0021567932808093425"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="1.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.72"></viz:size>
+        <viz:position x="181.09819" y="-227.48387"></viz:position>
+        <viz:color r="0" g="196" b="255"></viz:color>
+      </node>
+      <node id="5" label="New York Herald">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="eigencentrality" value="0.0033341830104047314"></attvalue>
+          <attvalue for="weighted indegree" value="2.0"></attvalue>
+          <attvalue for="weighted outdegree" value="2.0"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.44"></viz:size>
+        <viz:position x="192.92137" y="-217.94447"></viz:position>
+        <viz:color r="0" g="196" b="255"></viz:color>
+      </node>
+      <node id="6" label="World">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="7"></attvalue>
+          <attvalue for="degree" value="13"></attvalue>
+          <attvalue for="eigencentrality" value="0.4670583873048866"></attvalue>
+          <attvalue for="weighted indegree" value="6.0"></attvalue>
+          <attvalue for="weighted outdegree" value="7.0"></attvalue>
+          <attvalue for="weighted degree" value="13.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.68"></viz:size>
+        <viz:position x="184.05586" y="34.41726"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="7" label="Brooklyn Daily Eagle">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="10"></attvalue>
+          <attvalue for="outdegree" value="10"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="eigencentrality" value="0.8899005012830392"></attvalue>
+          <attvalue for="weighted indegree" value="10.0"></attvalue>
+          <attvalue for="weighted outdegree" value="10.0"></attvalue>
+          <attvalue for="weighted degree" value="20.0"></attvalue>
+        </attvalues>
+        <viz:size value="10.200001"></viz:size>
+        <viz:position x="-60.31136" y="172.03163"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="8" label="Springfield Democrat">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="5"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.12538749891474235"></attvalue>
+          <attvalue for="weighted indegree" value="5.0"></attvalue>
+          <attvalue for="weighted outdegree" value="5.0"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.6000004"></viz:size>
+        <viz:position x="-63.362404" y="-219.11307"></viz:position>
+        <viz:color r="115" g="192" b="0"></viz:color>
+      </node>
+      <node id="9" label="Witchita Daily Eagle">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="5"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.12538749891474235"></attvalue>
+          <attvalue for="weighted indegree" value="5.0"></attvalue>
+          <attvalue for="weighted outdegree" value="5.0"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.6000004"></viz:size>
+        <viz:position x="-102.34035" y="-206.66669"></viz:position>
+        <viz:color r="115" g="192" b="0"></viz:color>
+      </node>
+      <node id="10" label="Kansas Independent Daily Reporter">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="5"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.12538749891474235"></attvalue>
+          <attvalue for="weighted indegree" value="5.0"></attvalue>
+          <attvalue for="weighted outdegree" value="5.0"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.6000004"></viz:size>
+        <viz:position x="-138.90054" y="-214.70638"></viz:position>
+        <viz:color r="115" g="192" b="0"></viz:color>
+      </node>
+      <node id="11" label="Lawrence Daily News">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="4"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="eigencentrality" value="0.05683941932427882"></attvalue>
+          <attvalue for="weighted indegree" value="4.0"></attvalue>
+          <attvalue for="weighted outdegree" value="4.0"></attvalue>
+          <attvalue for="weighted degree" value="8.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.88"></viz:size>
+        <viz:position x="-113.96806" y="-256.84073"></viz:position>
+        <viz:color r="115" g="192" b="0"></viz:color>
+      </node>
+      <node id="12" label="Hutchinson Daily News">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="5"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.05884097120002161"></attvalue>
+          <attvalue for="weighted indegree" value="5.0"></attvalue>
+          <attvalue for="weighted outdegree" value="5.0"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.6000004"></viz:size>
+        <viz:position x="-66.283905" y="-271.2293"></viz:position>
+        <viz:color r="115" g="192" b="0"></viz:color>
+      </node>
+      <node id="13" label="Arizona Republic">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.0"></viz:size>
+        <viz:position x="-304.22644" y="-38.78139"></viz:position>
+        <viz:color r="255" g="136" b="5"></viz:color>
+      </node>
+      <node id="14" label="Atchison Daily Globe">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.0"></viz:size>
+        <viz:position x="287.21185" y="-117.90721"></viz:position>
+        <viz:color r="255" g="85" b="132"></viz:color>
+      </node>
+      <node id="15" label="Daily Northwestern">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="eigencentrality" value="0.009567471291179915"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="1.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.72"></viz:size>
+        <viz:position x="-40.83767" y="-290.16284"></viz:position>
+        <viz:color r="115" g="192" b="0"></viz:color>
+      </node>
+      <node id="16" label="Deming Headlight">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.0"></viz:size>
+        <viz:position x="-311.46548" y="-3.5446062"></viz:position>
+        <viz:color r="0" g="189" b="148"></viz:color>
+      </node>
+      <node id="17" label="Hornellsville">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.0"></viz:size>
+        <viz:position x="270.59" y="-140.2645"></viz:position>
+        <viz:color r="211" g="179" b="176"></viz:color>
+      </node>
+      <node id="18" label="New Orleans Daily Picayune">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.0"></viz:size>
+        <viz:position x="-293.8003" y="-72.4552"></viz:position>
+        <viz:color r="192" g="192" b="192"></viz:color>
+      </node>
+      <node id="20" label="Oakland Tribune">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="11"></attvalue>
+          <attvalue for="outdegree" value="12"></attvalue>
+          <attvalue for="degree" value="23"></attvalue>
+          <attvalue for="eigencentrality" value="0.9173658294282369"></attvalue>
+          <attvalue for="weighted indegree" value="11.0"></attvalue>
+          <attvalue for="weighted outdegree" value="12.0"></attvalue>
+          <attvalue for="weighted degree" value="23.0"></attvalue>
+        </attvalues>
+        <viz:size value="11.28"></viz:size>
+        <viz:position x="-23.310377" y="94.03967"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="21" label="Salt Lake Herald">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="10"></attvalue>
+          <attvalue for="outdegree" value="11"></attvalue>
+          <attvalue for="degree" value="21"></attvalue>
+          <attvalue for="eigencentrality" value="0.8758144103017396"></attvalue>
+          <attvalue for="weighted indegree" value="10.0"></attvalue>
+          <attvalue for="weighted outdegree" value="11.0"></attvalue>
+          <attvalue for="weighted degree" value="21.0"></attvalue>
+        </attvalues>
+        <viz:size value="10.559999"></viz:size>
+        <viz:position x="-127.29936" y="37.197426"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="22" label="Indianapolis News">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="11"></attvalue>
+          <attvalue for="outdegree" value="11"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="eigencentrality" value="0.9584485808735033"></attvalue>
+          <attvalue for="weighted indegree" value="11.0"></attvalue>
+          <attvalue for="weighted outdegree" value="11.0"></attvalue>
+          <attvalue for="weighted degree" value="22.0"></attvalue>
+        </attvalues>
+        <viz:size value="10.92"></viz:size>
+        <viz:position x="-55.53682" y="8.500185"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="23" label="San Francisco Call">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="indegree" value="11"></attvalue>
+          <attvalue for="outdegree" value="11"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="eigencentrality" value="0.7620507096148718"></attvalue>
+          <attvalue for="weighted indegree" value="11.0"></attvalue>
+          <attvalue for="weighted outdegree" value="11.0"></attvalue>
+          <attvalue for="weighted degree" value="22.0"></attvalue>
+        </attvalues>
+        <viz:size value="10.92"></viz:size>
+        <viz:position x="-75.62736" y="-99.987915"></viz:position>
+        <viz:color r="115" g="192" b="0"></viz:color>
+      </node>
+      <node id="24" label="Deseret Evening News">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="11"></attvalue>
+          <attvalue for="outdegree" value="12"></attvalue>
+          <attvalue for="degree" value="23"></attvalue>
+          <attvalue for="eigencentrality" value="0.9173658294282369"></attvalue>
+          <attvalue for="weighted indegree" value="11.0"></attvalue>
+          <attvalue for="weighted outdegree" value="12.0"></attvalue>
+          <attvalue for="weighted degree" value="23.0"></attvalue>
+        </attvalues>
+        <viz:size value="11.28"></viz:size>
+        <viz:position x="39.698036" y="50.108955"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="25" label="Los Angeles Herald">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="12"></attvalue>
+          <attvalue for="outdegree" value="13"></attvalue>
+          <attvalue for="degree" value="25"></attvalue>
+          <attvalue for="eigencentrality" value="0.9299821495618127"></attvalue>
+          <attvalue for="weighted indegree" value="12.0"></attvalue>
+          <attvalue for="weighted outdegree" value="13.0"></attvalue>
+          <attvalue for="weighted degree" value="25.0"></attvalue>
+        </attvalues>
+        <viz:size value="12.0"></viz:size>
+        <viz:position x="126.611916" y="76.17974"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="27" label="Saint Paul Daily Globe">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="11"></attvalue>
+          <attvalue for="outdegree" value="11"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="eigencentrality" value="0.9314519204095357"></attvalue>
+          <attvalue for="weighted indegree" value="11.0"></attvalue>
+          <attvalue for="weighted outdegree" value="11.0"></attvalue>
+          <attvalue for="weighted degree" value="22.0"></attvalue>
+        </attvalues>
+        <viz:size value="10.92"></viz:size>
+        <viz:position x="91.841736" y="156.91946"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="28" label="Fort Worth Daily Gazette">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="12"></attvalue>
+          <attvalue for="outdegree" value="6"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="eigencentrality" value="0.9356255302388287"></attvalue>
+          <attvalue for="weighted indegree" value="12.0"></attvalue>
+          <attvalue for="weighted outdegree" value="6.0"></attvalue>
+          <attvalue for="weighted degree" value="18.0"></attvalue>
+        </attvalues>
+        <viz:size value="9.4800005"></viz:size>
+        <viz:position x="116.28865" y="-23.36193"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="29" label="Galveston Daily News">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="12"></attvalue>
+          <attvalue for="outdegree" value="12"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="weighted indegree" value="12.0"></attvalue>
+          <attvalue for="weighted outdegree" value="12.0"></attvalue>
+          <attvalue for="weighted degree" value="24.0"></attvalue>
+        </attvalues>
+        <viz:size value="11.639999"></viz:size>
+        <viz:position x="34.458122" y="-42.74967"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="30" label="Spokesman Review">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="10"></attvalue>
+          <attvalue for="outdegree" value="10"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="eigencentrality" value="0.8758144103017396"></attvalue>
+          <attvalue for="weighted indegree" value="10.0"></attvalue>
+          <attvalue for="weighted outdegree" value="10.0"></attvalue>
+          <attvalue for="weighted degree" value="20.0"></attvalue>
+        </attvalues>
+        <viz:size value="10.200001"></viz:size>
+        <viz:position x="-124.80313" y="117.186516"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="31" label="Cincinnati Enquirer">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="10"></attvalue>
+          <attvalue for="outdegree" value="10"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="eigencentrality" value="0.8899005012830392"></attvalue>
+          <attvalue for="weighted indegree" value="10.0"></attvalue>
+          <attvalue for="weighted outdegree" value="10.0"></attvalue>
+          <attvalue for="weighted degree" value="20.0"></attvalue>
+        </attvalues>
+        <viz:size value="10.200001"></viz:size>
+        <viz:position x="14.268017" y="182.78023"></viz:position>
+        <viz:color r="223" g="137" b="255"></viz:color>
+      </node>
+      <node id="32" label="San Francisco Chronicle">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.0"></viz:size>
+        <viz:position x="130.88594" y="-265.8371"></viz:position>
+        <viz:color r="255" g="253" b="5"></viz:color>
+      </node>
+      <node id="33" label="Washington Times">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.0"></viz:size>
+        <viz:position x="108.34038" y="-276.9937"></viz:position>
+        <viz:color r="122" g="0" b="245"></viz:color>
+      </node>
+      <node id="34" label="Daily Inter Ocean">
+        <attvalues>
+          <attvalue for="modularity_class" value="11"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.0"></viz:size>
+        <viz:position x="-311.1755" y="36.559917"></viz:position>
+        <viz:color r="255" g="73" b="41"></viz:color>
+      </node>
+      <node id="35" label="Watchman &amp; Southron">
+        <attvalues>
+          <attvalue for="modularity_class" value="12"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.0"></viz:size>
+        <viz:position x="303.97073" y="-86.6811"></viz:position>
+        <viz:color r="34" g="245" b="0"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="1" source="3" target="5"></edge>
+      <edge id="2" source="7" target="31"></edge>
+      <edge id="3" source="7" target="27"></edge>
+      <edge id="4" source="7" target="20"></edge>
+      <edge id="5" source="7" target="25"></edge>
+      <edge id="6" source="7" target="30"></edge>
+      <edge id="7" source="7" target="22"></edge>
+      <edge id="8" source="7" target="24"></edge>
+      <edge id="9" source="7" target="21"></edge>
+      <edge id="10" source="7" target="29"></edge>
+      <edge id="11" source="7" target="28"></edge>
+      <edge id="12" source="31" target="27"></edge>
+      <edge id="13" source="31" target="7"></edge>
+      <edge id="14" source="31" target="20"></edge>
+      <edge id="15" source="31" target="25"></edge>
+      <edge id="16" source="31" target="30"></edge>
+      <edge id="17" source="31" target="22"></edge>
+      <edge id="18" source="31" target="24"></edge>
+      <edge id="19" source="31" target="21"></edge>
+      <edge id="20" source="31" target="29"></edge>
+      <edge id="21" source="31" target="28"></edge>
+      <edge id="25" source="15" target="12"></edge>
+      <edge id="26" source="24" target="21"></edge>
+      <edge id="27" source="24" target="30"></edge>
+      <edge id="28" source="24" target="25"></edge>
+      <edge id="29" source="24" target="20"></edge>
+      <edge id="30" source="24" target="31"></edge>
+      <edge id="31" source="24" target="27"></edge>
+      <edge id="32" source="24" target="7"></edge>
+      <edge id="33" source="24" target="22"></edge>
+      <edge id="34" source="24" target="23"></edge>
+      <edge id="39" source="24" target="28"></edge>
+      <edge id="40" source="24" target="29"></edge>
+      <edge id="41" source="24" target="6"></edge>
+      <edge id="46" source="28" target="29"></edge>
+      <edge id="47" source="28" target="22"></edge>
+      <edge id="48" source="28" target="23"></edge>
+      <edge id="49" source="28" target="31"></edge>
+      <edge id="50" source="28" target="7"></edge>
+      <edge id="51" source="28" target="27"></edge>
+      <edge id="52" source="29" target="28"></edge>
+      <edge id="53" source="29" target="22"></edge>
+      <edge id="54" source="29" target="31"></edge>
+      <edge id="55" source="29" target="23"></edge>
+      <edge id="56" source="29" target="7"></edge>
+      <edge id="57" source="29" target="27"></edge>
+      <edge id="60" source="29" target="24"></edge>
+      <edge id="61" source="29" target="20"></edge>
+      <edge id="62" source="29" target="25"></edge>
+      <edge id="63" source="29" target="21"></edge>
+      <edge id="64" source="29" target="6"></edge>
+      <edge id="69" source="29" target="30"></edge>
+      <edge id="70" source="12" target="15"></edge>
+      <edge id="71" source="12" target="9"></edge>
+      <edge id="72" source="12" target="10"></edge>
+      <edge id="73" source="12" target="11"></edge>
+      <edge id="74" source="12" target="8"></edge>
+      <edge id="76" source="22" target="31"></edge>
+      <edge id="77" source="22" target="27"></edge>
+      <edge id="78" source="22" target="29"></edge>
+      <edge id="79" source="22" target="28"></edge>
+      <edge id="80" source="22" target="7"></edge>
+      <edge id="81" source="22" target="20"></edge>
+      <edge id="82" source="22" target="25"></edge>
+      <edge id="83" source="22" target="30"></edge>
+      <edge id="84" source="22" target="24"></edge>
+      <edge id="85" source="22" target="21"></edge>
+      <edge id="86" source="22" target="23"></edge>
+      <edge id="87" source="10" target="9"></edge>
+      <edge id="88" source="10" target="11"></edge>
+      <edge id="89" source="10" target="8"></edge>
+      <edge id="91" source="10" target="12"></edge>
+      <edge id="95" source="10" target="23"></edge>
+      <edge id="96" source="11" target="9"></edge>
+      <edge id="97" source="11" target="10"></edge>
+      <edge id="98" source="11" target="8"></edge>
+      <edge id="102" source="11" target="12"></edge>
+      <edge id="104" source="25" target="20"></edge>
+      <edge id="105" source="25" target="30"></edge>
+      <edge id="106" source="25" target="31"></edge>
+      <edge id="107" source="25" target="27"></edge>
+      <edge id="108" source="25" target="7"></edge>
+      <edge id="109" source="25" target="24"></edge>
+      <edge id="110" source="25" target="21"></edge>
+      <edge id="111" source="25" target="22"></edge>
+      <edge id="112" source="25" target="23"></edge>
+      <edge id="117" source="25" target="28"></edge>
+      <edge id="118" source="25" target="29"></edge>
+      <edge id="119" source="25" target="6"></edge>
+      <edge id="122" source="25" target="2"></edge>
+      <edge id="123" source="5" target="3"></edge>
+      <edge id="124" source="5" target="4"></edge>
+      <edge id="125" source="4" target="5"></edge>
+      <edge id="126" source="20" target="25"></edge>
+      <edge id="127" source="20" target="30"></edge>
+      <edge id="128" source="20" target="31"></edge>
+      <edge id="129" source="20" target="27"></edge>
+      <edge id="130" source="20" target="7"></edge>
+      <edge id="131" source="20" target="24"></edge>
+      <edge id="132" source="20" target="21"></edge>
+      <edge id="133" source="20" target="22"></edge>
+      <edge id="134" source="20" target="23"></edge>
+      <edge id="139" source="20" target="28"></edge>
+      <edge id="140" source="20" target="29"></edge>
+      <edge id="141" source="20" target="6"></edge>
+      <edge id="146" source="2" target="6"></edge>
+      <edge id="147" source="2" target="28"></edge>
+      <edge id="148" source="2" target="25"></edge>
+      <edge id="149" source="27" target="31"></edge>
+      <edge id="150" source="27" target="7"></edge>
+      <edge id="151" source="27" target="20"></edge>
+      <edge id="152" source="27" target="25"></edge>
+      <edge id="153" source="27" target="30"></edge>
+      <edge id="154" source="27" target="22"></edge>
+      <edge id="155" source="27" target="24"></edge>
+      <edge id="156" source="27" target="21"></edge>
+      <edge id="157" source="27" target="29"></edge>
+      <edge id="158" source="27" target="28"></edge>
+      <edge id="165" source="27" target="6"></edge>
+      <edge id="170" source="21" target="24"></edge>
+      <edge id="171" source="21" target="30"></edge>
+      <edge id="172" source="21" target="25"></edge>
+      <edge id="173" source="21" target="20"></edge>
+      <edge id="174" source="21" target="31"></edge>
+      <edge id="175" source="21" target="27"></edge>
+      <edge id="176" source="21" target="7"></edge>
+      <edge id="177" source="21" target="22"></edge>
+      <edge id="178" source="21" target="23"></edge>
+      <edge id="183" source="21" target="28"></edge>
+      <edge id="184" source="21" target="29"></edge>
+      <edge id="191" source="23" target="28"></edge>
+      <edge id="192" source="23" target="25"></edge>
+      <edge id="193" source="23" target="29"></edge>
+      <edge id="194" source="23" target="21"></edge>
+      <edge id="195" source="23" target="30"></edge>
+      <edge id="196" source="23" target="24"></edge>
+      <edge id="197" source="23" target="22"></edge>
+      <edge id="198" source="23" target="20"></edge>
+      <edge id="199" source="23" target="10"></edge>
+      <edge id="200" source="23" target="9"></edge>
+      <edge id="201" source="23" target="8"></edge>
+      <edge id="202" source="30" target="25"></edge>
+      <edge id="203" source="30" target="20"></edge>
+      <edge id="204" source="30" target="31"></edge>
+      <edge id="205" source="30" target="27"></edge>
+      <edge id="206" source="30" target="7"></edge>
+      <edge id="207" source="30" target="24"></edge>
+      <edge id="208" source="30" target="21"></edge>
+      <edge id="209" source="30" target="22"></edge>
+      <edge id="210" source="30" target="23"></edge>
+      <edge id="213" source="30" target="29"></edge>
+      <edge id="215" source="8" target="11"></edge>
+      <edge id="216" source="8" target="9"></edge>
+      <edge id="217" source="8" target="10"></edge>
+      <edge id="221" source="8" target="12"></edge>
+      <edge id="222" source="8" target="23"></edge>
+      <edge id="223" source="9" target="10"></edge>
+      <edge id="224" source="9" target="11"></edge>
+      <edge id="225" source="9" target="8"></edge>
+      <edge id="227" source="9" target="12"></edge>
+      <edge id="231" source="9" target="23"></edge>
+      <edge id="232" source="6" target="29"></edge>
+      <edge id="233" source="6" target="28"></edge>
+      <edge id="234" source="6" target="27"></edge>
+      <edge id="235" source="6" target="2"></edge>
+      <edge id="236" source="6" target="24"></edge>
+      <edge id="237" source="6" target="20"></edge>
+      <edge id="238" source="6" target="25"></edge>
+    </edges>
+  </graph>
+</gexf>

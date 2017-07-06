@@ -5,3 +5,5 @@ resources/*
 !resources/css/
 wilde.xpr
 docs/build
+
+!resources/gexf-js/
